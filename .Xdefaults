@@ -1,0 +1,140 @@
+Xcursor.theme:	Vanilla-DMZ
+!-------------------------------------------------------------------------------
+!
+!	U R X V T
+!
+! General
+!urxvt*geometry:         80x26
+!urxvt*font:      -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont:  -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+urxvt*font:             xft:Terminus:pixelsize=12
+urxvt*boldFont:         xft:Terminus:pixelsize=12
+urxvt.termName:  rxvt-256color
+urxvt.loginShell:         true
+urxvt.scrollBar:         false
+urxvt.secondaryScroll:    true
+urxvt.saveLines:         65535
+urxvt.cursorBlink:       false
+!urxvt.urgentOnBell:       true
+!urxvt.borderLess:       false
+!urxvt.borderWidth:          1
+!urxvt.internalBorder:       0
+!URxvt*inheritPixmap: true
+!URxvt*tintColor: black
+!URxvt*shading: 99
+
+
+! Extensions
+urxvt*perl-lib:         /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:  default,matcher,searchable-scrollback
+urxvt*urlLauncher:      /usr/bin/firefox
+urxvt*matcher.button:   1
+! So we catch even nasty URLs
+urxvt.cutchars:         `()'*<>[]{|}"
+URxvt*cutchars:         `"()'*<>[]{|}
+
+! Cursor
+urxvt.cursorColor: #DDEEDD
+
+!*foreground: #DDEEDD
+!*background: #1C1C1C
+
+!*background: #151515
+!*foreground: #cacaca
+ 
+!*background: #262626
+!*foreground: #686868
+ 
+!thayer colors
+
+!black
+!*color0: #1B1D1E
+!*color8: #505354
+!*color0: #262729
+!*color8: #554444
+ 
+!red
+!*color1: #F92672
+!*color9: #FF669D
+!green
+!*color2: #A6E22E
+!*color10: #BEED5F
+!yellow
+!*color3: #FD971F
+!*color11: #E6DB74
+!blue
+!*color4: #66D9EF
+!*color12: #66D9EF
+!magenta
+!*color5: #9E6FFE
+!*color13: #9E6FFE
+!cyan
+!*color6: #5E7175
+!*color14: #A3BABF
+!white
+!*color7: #CCCCC6
+!*color15: #F8F8F2
+ 
+ 
+!Justin Colors
+ 
+!black text
+!*color0: #242424
+!*color8: #cdb5cd
+ 
+!red text
+!*color1: #bf7979
+!*color9: #f4a45f
+ 
+!green text
+!*color2: #97b26b
+!*color10: #c5f779
+ 
+!yellow text
+!*color3: #cdcda1
+!*color11: #ffffaf
+ 
+!blue text
+!*color4: #86a2be
+!*color12: #98afd9
+ 
+!magenta text
+!*color5: #d9b798
+!*color13: #d7d998
+ 
+!cyan text
+!*color6: #a1b5cd
+!*color14: #a1b5cd
+ 
+!white
+!*color7: #ffffff
+!*color15: #dedede
+
+! Zenburn color-scheme
+urxvt*background: #3f3f3f
+urxvt*foreground: #dcdccc
+! black + red
+urxvt*color0: #3f3f3f
+!urxvt*color0: #1E2320
+urxvt*color1: #705050
+! green + yellow
+urxvt*color2: #60b48a
+urxvt*color3: #dfaf8f
+! blue + purple
+urxvt*color4: #506070
+urxvt*color5: #dc8cc3
+! cyan + white
+urxvt*color6: #8cd0d3
+urxvt*color7: #dcdccc
+! bright-black + bright-red
+urxvt*color8: #709080
+urxvt*color9: #dca3a3
+! bright-green + bright-yellow
+urxvt*color10: #c3bf9f
+urxvt*color11: #f0dfaf
+! bright-blue + bright-purple
+urxvt*color12: #94bff3
+urxvt*color13: #ec93d3
+! bright-cyan + bright-white
+urxvt*color14: #93e0e3
+urxvt*color15: #ffffff
