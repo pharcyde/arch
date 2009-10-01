@@ -1,0 +1,19 @@
+Config { font = "xft:cure-10"
+       , bgColor = "#262626"
+       , fgColor = "#888888"
+       , position = Top
+       , lowerOnStart = False
+       , commands = [ Run StdinReader
+                    , Run Com "mpc" ["status", "--format", "\"%artist% - %title%\""] "music" 20
+                    , Run Cpu ["-L","7","-H","50","--low","#888888","--normal","#888888","--high","#888888"] 10
+                    , Run Network "eth0" ["-t","Net: <rx><fc=#FFFFFF> >> </fc><tx>","-L","5","-H","32","--normal","#888888","--high","#888888","--low","#888888"] 10
+                    , Run Memory ["-t","Mem: <usedratio>%"] 10
+                    , Run Weather "KBDL" ["-t"," <tempF>f","-L","64","-H","77","--normal","#FFFFFF","--high","#FFFFFF","--low","#FFFFFF"] 36000
+                    , Run Date "%a %b %_d<fc=#F92672> %H:%M</fc>" "date" 10
+                    ]    
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%StdinReader%} {%music%<fc=#FFFFFF> <fc=#FFFFFF>>></fc> </fc>%cpu% <fc=#FFFFFF>>></fc> %memory% <fc=#FFFFFF>>></fc> %eth0% <fc=#FFFFFF>>></fc> %date% %KBDL%"
+       }
+ 
+                    
