@@ -25,6 +25,4 @@ song_status_format = "{(%l) }{%a - }{%t}|{%f}"
 song_window_title_format = "{%a - }{%t}|{%f}"
 fancy_scrolling = "yes"
 display_screens_numbers_on_start = "no"
- 
-  This is an example resource file for rTorrent. Copy to
-# ~/.rtorrent.rc and enable/modify the options as needed. Remember to
+
